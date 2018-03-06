@@ -1,0 +1,10 @@
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\bin\Debug\QuanLyKhoa.exe.config
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\bin\Debug\QuanLyKhoa.exe
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\bin\Debug\QuanLyKhoa.pdb
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.csprojResolveAssemblyReference.cache
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.frmMaintainSpeciality.resources
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.Properties.Resources.resources
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.csproj.GenerateResource.Cache
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.exe
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.pdb
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.frmAddUpdateSpeciality.resources
