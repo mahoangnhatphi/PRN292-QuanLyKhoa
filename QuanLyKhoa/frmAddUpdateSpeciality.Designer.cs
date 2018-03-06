@@ -37,13 +37,9 @@
             this.lblYear = new System.Windows.Forms.Label();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnApply = new System.Windows.Forms.Button();
-            this.errSpecialityCodeLength = new System.Windows.Forms.ErrorProvider(this.components);
-            this.errSpecialityNameLength = new System.Windows.Forms.ErrorProvider(this.components);
-            this.errSpecialtiyYear = new System.Windows.Forms.ErrorProvider(this.components);
+            this.errSpeciality = new System.Windows.Forms.ErrorProvider(this.components);
             this.lblInvalid = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.errSpecialityCodeLength)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errSpecialityNameLength)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errSpecialtiyYear)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errSpeciality)).BeginInit();
             this.SuspendLayout();
             // 
             // txtSpecialityCode
@@ -117,20 +113,10 @@
             this.btnApply.UseVisualStyleBackColor = true;
             this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
             // 
-            // errSpecialityCodeLength
+            // errSpeciality
             // 
-            this.errSpecialityCodeLength.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.AlwaysBlink;
-            this.errSpecialityCodeLength.ContainerControl = this;
-            // 
-            // errSpecialityNameLength
-            // 
-            this.errSpecialityNameLength.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.AlwaysBlink;
-            this.errSpecialityNameLength.ContainerControl = this;
-            // 
-            // errSpecialtiyYear
-            // 
-            this.errSpecialtiyYear.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.AlwaysBlink;
-            this.errSpecialtiyYear.ContainerControl = this;
+            this.errSpeciality.BlinkStyle = System.Windows.Forms.ErrorBlinkStyle.AlwaysBlink;
+            this.errSpeciality.ContainerControl = this;
             // 
             // lblInvalid
             // 
@@ -163,9 +149,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmAddUpdateSpeciality_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmAddUpdateSpeciality_FormClosed);
             this.Load += new System.EventHandler(this.frmAddUpdateSpeciality_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.errSpecialityCodeLength)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errSpecialityNameLength)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.errSpecialtiyYear)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errSpeciality)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -181,9 +165,7 @@
         private System.Windows.Forms.Label lblYear;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnApply;
-        private System.Windows.Forms.ErrorProvider errSpecialityCodeLength;
-        private System.Windows.Forms.ErrorProvider errSpecialityNameLength;
-        private System.Windows.Forms.ErrorProvider errSpecialtiyYear;
+        private System.Windows.Forms.ErrorProvider errSpeciality;
         private System.Windows.Forms.Label lblInvalid;
     }
 }

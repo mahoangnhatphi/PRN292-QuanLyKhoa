@@ -53,9 +53,9 @@ namespace QuanLyKhoa
 
         private bool isValid()
         {
-            return errSpecialityCodeLength.GetError(txtSpecialityCode).Length == 0 &&
-                errSpecialityNameLength.GetError(txtSpecialityName).Length == 0 &&
-                errSpecialtiyYear.GetError(txtSpecialtityFoundedYear).Length == 0;
+            return errSpeciality.GetError(txtSpecialityCode).Length == 0 &&
+                errSpeciality.GetError(txtSpecialityName).Length == 0 &&
+                errSpeciality.GetError(txtSpecialtityFoundedYear).Length == 0;
         }
 
         private void btnApply_Click(object sender, EventArgs e)
@@ -92,10 +92,10 @@ namespace QuanLyKhoa
         {
             if (txtSpecialityCode.Text.Length < 1 || txtSpecialityCode.Text.Length >= 5)
             {
-                this.errSpecialityCodeLength.SetError(txtSpecialityCode, "Mã Khoa yêu cầu từ 1 đến 4 kí tự");
+                this.errSpeciality.SetError(txtSpecialityCode, "Mã Khoa yêu cầu từ 1 đến 4 kí tự");
             } else
             {
-                this.errSpecialityCodeLength.SetError(txtSpecialityCode, "");
+                this.errSpeciality.SetError(txtSpecialityCode, "");
             }
         }
 
@@ -103,11 +103,11 @@ namespace QuanLyKhoa
         {
             if (txtSpecialityName.Text.Length < 5 || txtSpecialityName.Text.Length > 30)
             {
-                this.errSpecialityNameLength.SetError(txtSpecialityName, "Tên Khoa yêu cầu từ 5 đến 30 kí tự");
+                this.errSpeciality.SetError(txtSpecialityName, "Tên Khoa yêu cầu từ 5 đến 30 kí tự");
             }
             else
             {
-                this.errSpecialityNameLength.SetError(txtSpecialityName, "");
+                this.errSpeciality.SetError(txtSpecialityName, "");
             }
         }
 
@@ -121,15 +121,15 @@ namespace QuanLyKhoa
             Regex regex = new Regex(@"\d+");
             if (!regex.IsMatch(txtSpecialtityFoundedYear.Text.ToString()))
             {
-                errSpecialtiyYear.SetError(txtSpecialtityFoundedYear, "Năm thành lập phải là số nguyên");
+                errSpeciality.SetError(txtSpecialtityFoundedYear, "Năm thành lập phải là số nguyên");
             } else
             {
                 if (int.Parse(txtSpecialtityFoundedYear.Text.ToString().Trim()) > DateTime.Now.Year)
                 {
-                    errSpecialtiyYear.SetError(txtSpecialtityFoundedYear, "Năm thành lập chưa biết cụ thể thế nào");
+                    errSpeciality.SetError(txtSpecialtityFoundedYear, "Năm thành lập chưa biết cụ thể thế nào");
                 } else
                 {
-                    errSpecialtiyYear.SetError(txtSpecialtityFoundedYear, "");
+                    errSpeciality.SetError(txtSpecialtityFoundedYear, "");
                 }
             }
         }
