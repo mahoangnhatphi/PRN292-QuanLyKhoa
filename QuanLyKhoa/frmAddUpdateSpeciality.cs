@@ -95,7 +95,11 @@ namespace QuanLyKhoa
                 this.errSpeciality.SetError(txtSpecialityCode, "Mã Khoa yêu cầu từ 1 đến 4 kí tự");
             } else
             {
+                if (KhoaData.IsExistedKhoa(txtSpecialityCode.Text.Trim())) {
+                    errSpeciality.SetError(txtSpecialityCode, "Mã Khoa đã tồn tại");
+                } else { 
                 this.errSpeciality.SetError(txtSpecialityCode, "");
+                }
             }
         }
 

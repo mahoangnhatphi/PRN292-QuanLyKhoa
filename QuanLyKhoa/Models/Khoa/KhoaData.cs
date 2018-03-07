@@ -42,5 +42,10 @@ namespace QuanLyKhoa.Models.Khoa
         {
             return DataProvider.DataProvider.ExecuteNonQuery("Delete From KHOA Where MAKHOA = @1", MaKhoa);
         }
+
+        public static bool IsExistedKhoa(string MaKhoa)
+        {
+            return DataProvider.DataProvider.ExecuteDataReader("Select * From KHOA Where MAKHOA = @1", MaKhoa).Read();
+        }
     }
 }
