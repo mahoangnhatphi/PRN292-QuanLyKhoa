@@ -149,6 +149,7 @@
             this.cbSpeciality.Name = "cbSpeciality";
             this.cbSpeciality.Size = new System.Drawing.Size(121, 21);
             this.cbSpeciality.TabIndex = 0;
+            this.cbSpeciality.SelectedIndexChanged += new System.EventHandler(this.cbSpeciality_SelectedIndexChanged);
             // 
             // menuStrip1
             // 
@@ -172,13 +173,13 @@
             // quảnLýKhoaToolStripMenuItem
             // 
             this.quảnLýKhoaToolStripMenuItem.Name = "quảnLýKhoaToolStripMenuItem";
-            this.quảnLýKhoaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.quảnLýKhoaToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.quảnLýKhoaToolStripMenuItem.Text = "Quản lý Khoa";
             // 
             // thoátToolStripMenuItem
             // 
             this.thoátToolStripMenuItem.Name = "thoátToolStripMenuItem";
-            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.thoátToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.thoátToolStripMenuItem.Text = "Thoát";
             this.thoátToolStripMenuItem.Click += new System.EventHandler(this.thoátToolStripMenuItem_Click);
             // 

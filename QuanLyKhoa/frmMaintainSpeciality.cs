@@ -133,5 +133,11 @@ namespace QuanLyKhoa
         {
             this.Close();
         }
+
+        private void cbSpeciality_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cbSpeciality.DataBindings.Clear();
+            txtSpecialistName.DataBindings.Clear();
+        }
     }
 }
