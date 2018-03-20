@@ -8,3 +8,4 @@ E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\
 E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.exe
 E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.pdb
 E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.frmAddUpdateSpeciality.resources
+E:\Phi\FPT_University\Semeter_05\PRN292\Solutions\Project\QuanLyKhoa\QuanLyKhoa\obj\Debug\QuanLyKhoa.frmLogin.resources

@@ -44,60 +44,67 @@
             // 
             // txtSpecialityCode
             // 
-            this.txtSpecialityCode.Location = new System.Drawing.Point(104, 39);
+            this.txtSpecialityCode.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpecialityCode.Location = new System.Drawing.Point(122, 36);
             this.txtSpecialityCode.Name = "txtSpecialityCode";
-            this.txtSpecialityCode.Size = new System.Drawing.Size(135, 20);
+            this.txtSpecialityCode.Size = new System.Drawing.Size(135, 22);
             this.txtSpecialityCode.TabIndex = 0;
             this.txtSpecialityCode.Validating += new System.ComponentModel.CancelEventHandler(this.txtSpecialityCode_Validating);
             // 
             // txtSpecialityName
             // 
-            this.txtSpecialityName.Location = new System.Drawing.Point(104, 78);
+            this.txtSpecialityName.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpecialityName.Location = new System.Drawing.Point(122, 81);
             this.txtSpecialityName.Name = "txtSpecialityName";
-            this.txtSpecialityName.Size = new System.Drawing.Size(315, 20);
+            this.txtSpecialityName.Size = new System.Drawing.Size(315, 22);
             this.txtSpecialityName.TabIndex = 1;
             this.txtSpecialityName.Validating += new System.ComponentModel.CancelEventHandler(this.txtSpecialityName_Validating);
             // 
             // txtSpecialtityFoundedYear
             // 
-            this.txtSpecialtityFoundedYear.Location = new System.Drawing.Point(104, 118);
+            this.txtSpecialtityFoundedYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSpecialtityFoundedYear.Location = new System.Drawing.Point(122, 121);
             this.txtSpecialtityFoundedYear.Name = "txtSpecialtityFoundedYear";
-            this.txtSpecialtityFoundedYear.Size = new System.Drawing.Size(100, 20);
+            this.txtSpecialtityFoundedYear.Size = new System.Drawing.Size(100, 22);
             this.txtSpecialtityFoundedYear.TabIndex = 2;
             this.txtSpecialtityFoundedYear.Validating += new System.ComponentModel.CancelEventHandler(this.txtSpecialtityFoundedYear_Validating);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(12, 42);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
+            this.label1.Size = new System.Drawing.Size(61, 16);
             this.label1.TabIndex = 3;
             this.label1.Text = "Mã Khoa";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(12, 81);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(54, 13);
+            this.label2.Size = new System.Drawing.Size(66, 16);
             this.label2.TabIndex = 4;
             this.label2.Text = "Tên Khoa";
             // 
             // lblYear
             // 
             this.lblYear.AutoSize = true;
-            this.lblYear.Location = new System.Drawing.Point(8, 118);
+            this.lblYear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblYear.Location = new System.Drawing.Point(12, 124);
             this.lblYear.Name = "lblYear";
-            this.lblYear.Size = new System.Drawing.Size(84, 13);
+            this.lblYear.Size = new System.Drawing.Size(104, 16);
             this.lblYear.TabIndex = 5;
             this.lblYear.Text = "Năm Thành Lập";
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(206, 167);
+            this.btnCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancel.Location = new System.Drawing.Point(194, 167);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(94, 33);
             this.btnCancel.TabIndex = 6;
             this.btnCancel.Text = "Hủy";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -105,9 +112,10 @@
             // 
             // btnApply
             // 
-            this.btnApply.Location = new System.Drawing.Point(104, 167);
+            this.btnApply.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnApply.Location = new System.Drawing.Point(72, 167);
             this.btnApply.Name = "btnApply";
-            this.btnApply.Size = new System.Drawing.Size(75, 23);
+            this.btnApply.Size = new System.Drawing.Size(92, 33);
             this.btnApply.TabIndex = 7;
             this.btnApply.Text = "Đồng ý";
             this.btnApply.UseVisualStyleBackColor = true;
@@ -121,11 +129,11 @@
             // lblInvalid
             // 
             this.lblInvalid.AutoSize = true;
-            this.lblInvalid.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInvalid.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInvalid.ForeColor = System.Drawing.Color.Red;
             this.lblInvalid.Location = new System.Drawing.Point(12, 214);
             this.lblInvalid.Name = "lblInvalid";
-            this.lblInvalid.Size = new System.Drawing.Size(234, 16);
+            this.lblInvalid.Size = new System.Drawing.Size(284, 20);
             this.lblInvalid.TabIndex = 8;
             this.lblInvalid.Text = "Một số trường chưa hợp lệ. Xin kiểm tra";
             this.lblInvalid.Visible = false;

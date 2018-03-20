@@ -4,15 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel;
+
 namespace QuanLyKhoa.Models.Khoa
 {
     public class Khoa
     {
-        [Display(Name ="Mã Khoa")]
+        [DisplayName("Mã Khoa")]
         public string MaKhoa { get; set; }
-        [Display(Name = "Tên Khoa")]
+        [DisplayName("Tên Khoa")]
         public string TenKhoa { get; set; }
-        [Display(Name = "Năm Thành Lập")]
+        [DisplayName("Năm Thành Lập")]
         public int NamThanhLap { get; set; }
 
         public bool TuyenSinh { get; set; }
