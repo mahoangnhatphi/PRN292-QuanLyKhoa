@@ -40,6 +40,7 @@ namespace QuanLyKhoa
                 dgvSpeciality.Columns["NamThanhLap"].Visible = false;
                 dgvSpeciality.Columns["TuyenSinh"].Visible = false;
                 lblNumber.Text = "Có " + dsKhoa.Count + " khoa";
+                cbSpeciality.DataSource = null;
                 cbSpeciality.DataBindings.Clear();
                 txtSpecialistName.DataBindings.Clear();
                 cbSpeciality.DataBindings.Add("text", dsKhoa, "MaKhoa");
@@ -120,6 +121,7 @@ namespace QuanLyKhoa
         private void dgvSpeciality_SelectionChanged(object sender, EventArgs e)
         {
             cbSpeciality.DataSource = null;
+            
             cbSpeciality.DataBindings.Clear();
             cbSpeciality.DataBindings.Add("text", dsKhoa, "MaKhoa");
             txtSpecialistName.DataBindings.Clear();
